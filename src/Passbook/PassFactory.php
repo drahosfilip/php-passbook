@@ -206,7 +206,7 @@ class PassFactory
      *
      * @return $this
      */
-    public function setPassValidator(PassValidatorInterface $passValidator = null)
+    public function setPassValidator(?PassValidatorInterface $passValidator = null)
     {
         $this->passValidator = $passValidator;
 
